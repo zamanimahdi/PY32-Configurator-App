@@ -307,11 +307,10 @@ Main commands: `families`, `chips`, `pins`, `pin`, `label`, `new`, `chip`, `proj
 **Freeware, all rights reserved.** See [`LICENSE`](LICENSE).
 
 - Free to download and use, also for commercial work.
-- The code and projects the tool generates are yours, without restriction.
-- Not allowed without written permission: redistributing or re-uploading the program, unpacking or reverse engineering it, modifying it, publishing a derived tool, or removing the credits.
+- Only the program files are published here; its source code is not.
+- The projects you generate with it (your C files and project files) belong to you, without restriction.
+- Not allowed without written permission: redistributing or re-uploading the program files, unpacking or reverse engineering them, or removing the credits.
 - Libraries that a generated project downloads (Puya firmware library, CMSIS, device packs) keep their own licenses.
-
-Made by **[zamanimahdi](https://github.com/zamanimahdi)**.
 
 ---
 
@@ -555,10 +554,9 @@ py32cfg generate
 **رایگان، تمام حقوق محفوظ.** متن کامل در [`LICENSE`](LICENSE) است.
 
 - دانلود و استفاده رایگان است، حتی برای کار تجاری.
-- کد و پروژه‌ای که ابزار تولید می‌کند بدون هیچ محدودیتی مال شماست.
-- بدون اجازه‌ی کتبی مجاز نیست: توزیع یا آپلود دوباره‌ی برنامه، باز کردن یا مهندسی معکوس آن، تغییر دادنش، انتشار ابزار مشتق‌شده یا حذف نام سازنده.
+- اینجا فقط فایل‌های برنامه منتشر شده است و کد منبع آن منتشر نمی‌شود.
+- پروژه‌هایی که با برنامه می‌سازید (فایل‌های C و فایل‌های پروژه‌ی خودتان) بدون هیچ محدودیتی مال شماست.
+- بدون اجازه‌ی کتبی مجاز نیست: توزیع یا آپلود دوباره‌ی فایل‌های برنامه، باز کردن یا مهندسی معکوس آن‌ها، یا حذف نام سازنده.
 - کتابخانه‌هایی که پروژه دانلود می‌کند (کتابخانه‌ی Puya، CMSIS، بسته‌های تراشه) مجوز خودشان را دارند.
-
-سازنده: **[zamanimahdi](https://github.com/zamanimahdi)**
 
 </div>
