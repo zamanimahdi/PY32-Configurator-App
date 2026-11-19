@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Download the latest version / دانلود آخرین نسخه
+    url: https://github.com/zamanimahdi/PY32-Configurator-App/releases/latest
+    about: Check that the problem is still there in the latest version. / اول بررسی کنید مشکل در آخرین نسخه هم هست.

@@ -1,0 +1,78 @@
+PY32 Configurator - End User License Agreement
+
+Copyright (c) 2026 zamanimahdi (https://github.com/zamanimahdi). All rights reserved.
+
+This agreement covers the PY32 Configurator programs published in this
+repository and in its Releases: the desktop application for Windows, Linux and
+macOS, the py32cfg command line tool and MCP server, and their documentation and
+images (together, "the Software"). By downloading, installing or using the
+Software you accept this agreement. If you do not accept it, do not use the
+Software.
+
+1. Grant of use
+   You may download, install and use the Software free of charge, on any number
+   of your own computers, for personal, educational and commercial work.
+
+2. Your generated output
+   Source code, project files and other files that the Software generates for
+   you ("Output") belong to you. You may use, change, sell and publish the
+   Output without restriction and without credit. Libraries that a generated
+   project downloads (for example the Puya firmware library, CMSIS and device
+   packs) remain under their own licenses.
+
+3. Restrictions
+   Without prior written permission from the copyright holder you may not:
+   a) copy, re-upload, mirror, sell, rent, sublicense or otherwise distribute
+      the Software or any part of it, on GitHub or anywhere else, except by
+      linking to this repository;
+   b) decompile, disassemble, unpack, extract or reverse engineer the Software,
+      or extract its embedded pages, scripts, data tables or images, except to
+      the extent that applicable law expressly permits this despite this
+      limitation;
+   c) modify the Software, create derivative works from it, or publish a
+      similar tool that is based on its code, data, user interface or
+      documentation;
+   d) remove, hide or change any copyright notice, name, logo or credit in the
+      Software, or rebrand it;
+   e) use the Software, its data or its output to train, fine-tune or evaluate
+      a machine learning model offered as a competing configurator or code
+      generator.
+
+4. Ownership
+   The Software is licensed, not sold. The copyright holder keeps all rights,
+   title and interest in the Software, including all copies. All rights that
+   are not expressly granted in this agreement are reserved.
+
+5. Third-party components
+   The Software contains or uses third-party components (for example the
+   pywebview, Qt / WebView2 / WebKit runtimes, Node.js and jsdom). Each keeps
+   its own license; nothing in this agreement limits rights that those
+   licenses give you for the component itself.
+
+6. Updates and feedback
+   The copyright holder may change or stop the Software at any time. Bug
+   reports and suggestions you send (for example through GitHub Issues) may be
+   used to improve the Software without any obligation to you.
+
+7. No warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. Generated code is
+   build-tested only. You are responsible for checking it against the
+   manufacturer's datasheet and reference manual and for testing it on your
+   hardware before use in a product.
+
+8. Limitation of liability
+   IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR
+   OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+   ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE, ITS OUTPUT OR THE
+   USE OF EITHER, INCLUDING DAMAGE TO HARDWARE, LOST DATA OR LOST PROFIT.
+
+9. Termination
+   This agreement ends automatically if you break any of its terms. You must
+   then stop using the Software and delete all copies. Sections 2, 4, 7 and 8
+   survive termination.
+
+10. Contact
+    For permissions or any use not covered here, open an issue in this
+    repository or contact https://github.com/zamanimahdi.

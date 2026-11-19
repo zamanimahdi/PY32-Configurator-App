@@ -1,0 +1,100 @@
+name: Bug report / گزارش باگ
+description: Something in PY32 Configurator does not work as it should. / چیزی در PY32 Configurator درست کار نمی‌کند.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. The **Report a bug** button in the app fills in the version, chip and library for you.
+        Please do not paste passwords, keys or private code you cannot share.
+
+        ممنون از گزارش شما. دکمه‌ی **Report a bug** داخل برنامه، نسخه، تراشه و کتابخانه را خودش پر می‌کند.
+        لطفاً رمز، کلید یا کد خصوصی را اینجا نگذارید.
+  - type: input
+    id: version
+    attributes:
+      label: App version / نسخه‌ی برنامه
+      description: Shown in About. For example 1.0.0 (desktop). / در پنجره‌ی About نوشته شده است.
+      placeholder: 1.0.0 (desktop)
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system / سیستم‌عامل
+      options:
+        - Windows 10/11
+        - Linux
+        - macOS
+        - py32cfg CLI / MCP
+        - Other / سایر
+    validations:
+      required: true
+  - type: input
+    id: chip
+    attributes:
+      label: Chip and package / تراشه و پکیج
+      placeholder: PY32F002B TSSOP20
+    validations:
+      required: true
+  - type: dropdown
+    id: library
+    attributes:
+      label: Library / کتابخانه
+      options:
+        - LL
+        - HAL
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where is the problem? / مشکل در کدام بخش است؟
+      options:
+        - Pinout / pin menu
+        - Peripheral settings
+        - Clock Configuration
+        - Generated code does not compile / کد تولیدشده کامپایل نمی‌شود
+        - Generated code compiles but does not work on the board / روی برد کار نمی‌کند
+        - VS Code project (setup, build, flash, debug)
+        - PlatformIO project
+        - Examples
+        - MCU Selector
+        - Desktop app (window, files, folders)
+        - py32cfg CLI / MCP server
+        - Other / سایر
+    validations:
+      required: true
+  - type: input
+    id: config
+    attributes:
+      label: Peripherals in use / پریفرال‌های استفاده‌شده
+      placeholder: gpio, uart, adc
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / مراحل تکرار مشکل
+      placeholder: |
+        1. Choose PY32F031x8 LQFP48
+        2. Add USART1 ...
+        3. Press Generate code
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What happened, and what did you expect? / چه شد و انتظار چه چیزی را داشتید؟
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Error messages or build output / پیام خطا یا خروجی بیلد
+      description: Paste the compiler output or the Problems list. / خروجی کامپایلر یا لیست Problems را اینجا بگذارید.
+      render: text
+  - type: textarea
+    id: files
+    attributes:
+      label: Project file / فایل پروژه
+      description: Attach your .py32proj (zip it first) or drag a screenshot here. / فایل ‎.py32proj را (فشرده‌شده) یا اسکرین‌شات را اینجا بکشید.
