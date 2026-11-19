@@ -86,10 +86,14 @@ Or start from **Examples**: choose one, press Generate code, build and flash.
 
 | | |
 |---|---|
-| ![Clock Configuration](docs/images/clock.png) | ![Project Manager and generated code](docs/images/project-manager.png) |
-| **Clock Configuration** | **Project Manager and code** |
-| ![MCU Selector](docs/images/mcu-selector.png) | ![Pin menu, dark theme](docs/images/pin-menu-dark.png) |
-| **MCU Selector** | **Pin menu (dark theme)** |
+| ![Pinout, dark theme](docs/images/pinout-dark.png) | ![Pin menu with alternate functions](docs/images/pin-menu-dark.png) |
+| **Pinout & Configuration (dark theme)** | **Pin menu: GPIO and alternate functions** |
+| ![Clock Configuration](docs/images/clock.png) | ![ADC form with live sample rate](docs/images/adc-form.png) |
+| **Clock Configuration** | **Peripheral form with live ADC timing** |
+| ![Project Manager and generated code](docs/images/project-manager.png) | ![Problems list](docs/images/problems-dark.png) |
+| **Project Manager and generated code** | **Problems: pin, debug and setup checks** |
+| ![Examples](docs/images/examples.png) | ![MCU Selector](docs/images/mcu-selector.png) |
+| **Examples** | **MCU Selector** |
 
 ### Features
 
@@ -323,6 +327,7 @@ Made by **[zamanimahdi](https://github.com/zamanimahdi)**.
 - [دانلود](#دانلود)
 - [نصب و اجرای اول](#نصب-و-اجرای-اول)
 - [اولین پروژه](#اولین-پروژه)
+- [تصاویر](#تصاویر)
 - [امکانات](#امکانات)
 - [نسخه‌ی دسکتاپ](#نسخهی-دسکتاپ)
 - [خط فرمان و سرور MCP ‏(py32cfg)](#خط-فرمان-و-سرور-mcp-py32cfg)
@@ -374,6 +379,19 @@ Made by **[zamanimahdi](https://github.com/zamanimahdi)**.
 7. کد خودتان را بین `/* USER CODE BEGIN */` و `/* USER CODE END */` بنویسید. اگر بعداً تنظیمات را عوض کنید و دوباره **Generate code** بزنید، کدتان حفظ می‌شود و نسخه‌ی قبلی فایل‌های تغییرکرده در `.py32-backup/` می‌ماند.
 
 یا از **Examples** شروع کنید: یک نمونه انتخاب کنید، Generate code بزنید، بیلد و پروگرام کنید.
+
+### تصاویر
+
+| | |
+|---|---|
+| ![Pinout, dark theme](docs/images/pinout-dark.png) | ![Pin menu with alternate functions](docs/images/pin-menu-dark.png) |
+| **نمای پایه‌ها (تم تیره)** | **منوی پایه: GPIO و Alternate Functionها** |
+| ![Clock Configuration](docs/images/clock.png) | ![ADC form with live sample rate](docs/images/adc-form.png) |
+| **تنظیم کلاک** | **فرم پریفرال با محاسبه‌ی زنده‌ی ADC** |
+| ![Project Manager and generated code](docs/images/project-manager.png) | ![Problems list](docs/images/problems-dark.png) |
+| **Project Manager و کد تولیدشده** | **Problems: بررسی پایه‌ها، دیباگ و تنظیمات** |
+| ![Examples](docs/images/examples.png) | ![MCU Selector](docs/images/mcu-selector.png) |
+| **نمونه‌ها** | **MCU Selector** |
 
 ### امکانات
 
